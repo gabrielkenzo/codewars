@@ -1,4 +1,4 @@
-# Codewars [@ptsgr](https://www.codewars.com/users/gabrielkenzo)
+# Codewars [@gabrielkenzo](https://www.codewars.com/users/gabrielkenzo)
 
 [![Profile badge](https://www.codewars.com/users/gabrielkenzo/badges/large)](https://www.codewars.com/users/gabrielkenzo)
 
