@@ -1,16 +1,22 @@
-https://www.codewars.com/kata/58c5577d61aefcf3ff000081/python
+# [Rail Fence Cipher: Encoding and Decoding](https://www.codewars.com/kata/58c5577d61aefcf3ff000081)
+
+___3 kyu___
 
 Create two functions to encode and then decode a string using the Rail Fence Cipher. This cipher is used to encode a string by placing each character successively in a diagonal along a set of "rails". First start off moving diagonally and down. When you reach the bottom, reverse direction and move diagonally and up until you reach the top rail. Continue until you reach the end of the string. Each "rail" is then read left to right to derive the encoded string.
 
-For example, the string "WEAREDISCOVEREDFLEEATONCE" could be represented in a three rail system as follows:
+For example, the string `"WEAREDISCOVEREDFLEEATONCE"` could be represented in a three rail system as follows:
 
-W&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E
-&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp; 
+```bash
+W       E       C       R       L       T       E
+  E   R   D   S   O   E   E   F   E   A   O   C  
+    A       I       V       D       E       N  
+```
 
 The encoded string would be:
 
+```bash
 WECRLTEERDSOEEFEAOCAIVDEN
+```
 
 Write a function/method that takes 2 arguments, a string and the number of rails, and returns the ENCODED string.
 
