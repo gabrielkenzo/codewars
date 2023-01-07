@@ -1,1 +1,3 @@
 repo_example.txt
+.vscode/settings.json
+*.pyc
