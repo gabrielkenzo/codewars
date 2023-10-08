@@ -7,6 +7,7 @@
 ____
 
 * [Python](#python)
+* [Golang](#golang)
 
 ____
 
@@ -17,3 +18,11 @@ ____
 | kyu | Codewars kata | Solution |
 | --- | --- | --- |
 | 3 | [Rail Fence Cipher: Encoding and Decoding](https://www.codewars.com/kata/58c5577d61aefcf3ff000081) | [solution](/pkg/rail_fence_cipher) |
+
+## Golang
+
+____
+
+| kyu | Codewars kata | Solution |
+| --- | --- | --- |
+| 3 | [The Lift](https://www.codewars.com/kata/58905bfa1decb981da00009e) | [solution](/pkg/the_lift) |
